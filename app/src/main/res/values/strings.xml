@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PlanterBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_plants">Your Plants</string>
+    <string name="add_new_plant">Add A New Plant</string>
+    <string name="plant_type">Plant Type:</string>
+    <string name="plant_name">Plant Name:</string>
+    <string name="add_button">Add Plant</string>
+    <string name="spinner_title">Choose</string>
+    <string name="water">Water Plant</string>
+    <string name="delete_plant">Delete Plant</string>
+    <string name="plant_info">Plant Info</string>
+    <string name="_8942">⋮</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="edit_plant">Edit Plant</string>
+    <string name="save_button">Save</string>
+    <string name="done">Done</string>
+    <string name="your_plant">Your Plant</string>
+    <string name="text">text</string>
+    <string name="name">Name:</string>
+    <string name="last_watered">Last Watered:</string>
+    <string name="is_your_plant_outdoors">Is your plant outdoors?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="your_plant_is_outdoors">Your plant is outdoors</string>
+</resources>
