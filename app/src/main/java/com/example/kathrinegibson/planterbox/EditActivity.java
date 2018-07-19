@@ -35,7 +35,7 @@ public class EditActivity extends AppCompatActivity implements AdapterView.OnIte
         else{
             newPlantType = PlantType.Default;
         }
-        plantName = editPlant.getName();
+        plantName = editPlant.getName().replaceAll("^\"|\"$", "");
         TextView oldName = findViewById(R.id.editText1);
         oldName.setText(plantName);
 
