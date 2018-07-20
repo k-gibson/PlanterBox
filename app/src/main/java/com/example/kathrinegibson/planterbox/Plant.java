@@ -58,7 +58,11 @@ public class Plant {
     //sets up all the possibilities for plants
     static {
         possiblePlants.add(new Plant(null, R.drawable.aloe, PlantType.AloeVera, null)); //, false));
-        possiblePlants.add(new Plant(null, R.drawable.rose, PlantType.Rose, null)); //, false));
+        possiblePlants.add(new Plant(null, R.drawable.echeveria, PlantType.Echeveria, null)); //, false));
+        possiblePlants.add(new Plant(null, R.drawable.iris, PlantType.Iris, null));
+        possiblePlants.add(new Plant(null, R.drawable.orchid, PlantType.Orchid, null));
+        possiblePlants.add(new Plant(null, R.drawable.snakeplant, PlantType.SnakePlant, null));
+        possiblePlants.add(new Plant(null, R.drawable.zzplant, PlantType.ZzPlant, null));
     }
 
     public void changePlantName(String newName){

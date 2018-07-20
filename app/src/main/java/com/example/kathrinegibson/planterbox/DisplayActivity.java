@@ -23,7 +23,7 @@ public class DisplayActivity extends AppCompatActivity {
         final Plant editPlant = Parcels.unwrap(getIntent().getParcelableExtra("my plant"));
         TextView nameText = findViewById(R.id.plant_name);
         TextView typeText = findViewById(R.id.plant_type);
-        TextView timeCreated = findViewById(R.id.plant_creation);
+        //TextView timeCreated = findViewById(R.id.plant_creation);
         TextView lastWatered = findViewById(R.id.plant_watered);
         TextView outdoorPlant = findViewById(R.id.if_outside);
         ImageView imagePath = findViewById(R.id.plant_photo);
@@ -39,7 +39,7 @@ public class DisplayActivity extends AppCompatActivity {
 
         nameText.setText(editPlant.getName());
         typeText.setText(editPlant.getPlantTypeString());
-        timeCreated.setText(editPlant.getTimeCreatedString());
+        //timeCreated.setText(editPlant.getTimeCreatedString());
         lastWatered.setText(editPlant.getLastWateredString());
         imagePath.setImageResource(editPlant.getImagePath());
         if(editPlant.getOutdoorPlant()){

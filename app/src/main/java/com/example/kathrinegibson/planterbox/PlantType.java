@@ -7,5 +7,9 @@ public enum PlantType {
     //should be in alphabetical order
     Default,
     AloeVera,
-    Rose
+    Echeveria,
+    Iris,
+    Orchid,
+    SnakePlant,
+    ZzPlant
 }

@@ -22,7 +22,7 @@
             android:layout_alignParentTop="true"
             android:contentDescription="@string/action_settings"
             android:scaleType="fitCenter"
-            android:src="@drawable/rose"
+            android:src="@drawable/iris"
             tools:ignore="RtlCompat" />
 
         <TextView

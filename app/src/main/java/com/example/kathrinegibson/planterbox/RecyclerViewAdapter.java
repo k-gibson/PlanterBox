@@ -66,7 +66,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                                 IOUtility.SaveData((Activity) context, itemList);
                                 notifyItemRemoved(position);
                                 notifyItemRangeChanged(position,itemList.size());
-                                Toast.makeText(context,"Removed : " + position, Toast.LENGTH_SHORT).show();
                                 break;
                         }
                         return false;
